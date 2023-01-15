@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font: 400 14px "Work Sans", sans-serif;
+}
+nav{
+    background-color: #008ba2;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    color: #001215;
+    text-align: center;
+}
+nav ul{
+    font-size: 18px;
+    display: inline-block;
+}
+nav ul li i{
+    font-size: 30px;
+}
+li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section{
+    padding: 0px 20px 10px 20px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+h2{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+h3{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color: #001215;
+}
+a:-webkit-any-link{
+    color: #001215;
+}
+a:-moz-any-link{
+    color: #001215;
+}
+a:hover{
+    color: white;
+}
+table{
+    width: 50%;
+    border: 2px solid #008ba2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    background-color: #008ba2;
+    color: #222;
+    padding: 10px;
+    border-radius: 15px;
+}
+td{
+    padding: 5px 10px 5px 10px;
+}
+td i{
+    font-size: 20px;
+}
+button, input{
+    background-color: #008ba2;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #222;
+}
+textarea{
+    border-radius: 10px;
+}
+/*Clases y IDs*/
+.text{
+    padding-top: 10px;
+}
+#modulo{
+    padding-top: 60px;
+    background-image: url(../images/background\ 1.png);
+    min-height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#descript h3{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+#descript{
+    padding-bottom: 10px;
+}
+#recursos{
+    background-color: #00bbd3;
+}
+.gridrecurso{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.recurso{
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+.recurso p{
+    padding-left: 12.5px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.recurso h4{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.recurso img{
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    border-radius: 50px;
+}
+.recurso .ir, .recurso .descargar{
+    float: right;
+    padding: 5px;
+}
+.recurso .sep{
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #00bbd3;
+}
+#gridclases{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+@media (min-width: 400px) {
+    #gridclases{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+#gridclases table{
+    width: 70%;
+}
+.clases a:hover{
+    color: #00bbd3;
+}
+.clases th i{
+    font-size: 20px;
+}
+#multim{
+    background-image: url(../images/background\ multimedia.png);
+    min-height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+#tablemultim{
+    margin-left: auto;
+    margin-right: auto;
+}
+#tablamultim{
+    border: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tablamultim td h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+#tablamultim td iframe{
+    border-radius: 20px;
+}
+#foro h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#foro h3, #foro p, #foro form{
+    padding-bottom: 10px;
+}
+#tareas{
+    background-color: #85A0BD;
+}
+#gridtask{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+#tareas #gridtask #task h3{
+    padding-top: 10px;
+}
