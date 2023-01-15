@@ -12,7 +12,20 @@
     <body>
         <nav>
             <ul>
-                <li class="text"><a href="">MÓDULOS</a></li>
+                <li class="text"><a href="">MÓDULOS</a>
+                    <ul id="submenu">
+                        <li><a href="">Módulo 1</a></li>
+                        <li><a href="">Módulo 2</a></li>
+                        <li><a href="">Módulo 3</a></li>
+                        <li><a href="">Módulo 4</a></li>
+                        <li><a href="">Módulo 5</a></li>
+                        <li><a href="">Módulo 6</a></li>
+                        <li><a href="">Módulo 7</a></li>
+                        <li><a href="">Módulo 8</a></li>
+                        <li><a href="">Módulo 9</a></li>
+                        <li><a href="">Módulo 10</a></li>
+                    </ul>
+                </li>
                 <li><a href=""><i class="fa-solid fa-user"></i></a></li>
                 <li class="text"><a href="">BIBLIOTECA</a></li>
                 <li class="text"><a href="">RECIBOS DE PAGOS</a></li>
@@ -134,7 +147,19 @@
                     <div class="form">
                         <h3>Ingresa un comentario acerca del tema del foro</h3>
                         <textarea name="comentario" id="comentario" cols="60" rows="5" required></textarea>
-                        <p>Si necesitas sube un archivo que complete tu comentario</p>
+                        <p>Si necesitas sube un archivo que complete tu comentario. Para seleccionar el archivo desde tu computadora selecciona "Choose File"</p>
+                        <input type="file" name="myFile">
+                        <input type="submit" name="enviar" value="ENVIAR">
+                    </div>
+                </form> 
+            </section>
+            <section id="foro" class="priv">
+                <h2>PREGÚNTALE A TU TUTOR</h2>
+                <p>Puedes usar este apartado para comunicarte de manera privada con el tutor de la clase.</p>
+                <form action="#">
+                    <div class="form">
+                        <textarea name="comentario" id="comentario" cols="60" rows="5" required></textarea>
+                        <p>Si necesitas sube un archivo que complete tu duda. Para seleccionar el archivo desde tu computadora selecciona "Choose File"</p>
                         <input type="file" name="myFile">
                         <input type="submit" name="enviar" value="ENVIAR">
                     </div>
@@ -148,7 +173,7 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corporis optio earum, amet pariatur, vero, ea nihil voluptatum temporibus rem voluptatibus repudiandae vitae ad explicabo laboriosam tenetur. Exercitationem, eum ex.</p>
                     </div>
                     <div class="task">
-                        <label for="mensaje">En este apartado puedes subir tu archivo en formato .pdf o .doc.</label>
+                        <label for="mensaje">En este apartado puedes subir tu archivo en formato .pdf o .doc. Para seleccionar el archivo desde tu computadora selecciona "Choose File"</label>
                         <form action="#">
                             <input type="file" name="myFile" value="SelectFile" required>
                             <input type="submit" value="Subir">
@@ -157,5 +182,11 @@
                 </div>
             </section>
         </article>
+        <footer>
+            <ul>
+                <li class="logo"><a href="#inicio"><img src="./images/logo psic.png" alt="" height="40px"></a></li>
+                <li class="foot">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            </ul>
+        </footer>
     </body>
 </html>
