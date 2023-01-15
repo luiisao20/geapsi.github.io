@@ -38,31 +38,6 @@ nav a{
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-#submenu{
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 35px;
-    visibility: hidden;
-    z-index: 1;
-}
-li:hover ul#submenu{
-    opacity: 1;
-    top: 40px;
-    visibility: visible;
-}
-#submenu li{
-    float: none;
-    width: 100%;
-}
-#submenu a:hover{
-    background-color: rgb(0, 0, 0);
-}
-#submenu a{
-    background-color: #008ba2;
-    padding: 5px 5px;
-    margin: none;
-}
 nav i{
     font-size: 25px;
 }
@@ -127,9 +102,36 @@ textarea{
     border-radius: 10px;
 }
 /*Clases y IDs*/
+/*Menu de navegacion*/
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 40px;
+    visibility: visible;
+}
+#submenu li{
+    float: none;
+    width: 100%;
+}
+#submenu a:hover{
+    background-color: rgb(0, 0, 0);
+}
+#submenu a{
+    background-color: #008ba2;
+    padding: 5px 5px;
+    margin: none;
+}
 .text{
     padding-top: 10px;
 }
+/*Seccion de modulo*/
 #modulo{
     padding-top: 60px;
     background-image: url(../images/background\ 1.png);
@@ -137,6 +139,7 @@ textarea{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*Seccion de informacion general*/
 #descript h3{
     border-bottom: 2px solid #001215;
     padding-bottom: 5px;
@@ -148,6 +151,7 @@ textarea{
 #descript{
     padding-bottom: 10px;
 }
+/*Seccion de recursos del modulo*/
 #recursos{
     background-color: #00bbd3;
 }
@@ -190,6 +194,7 @@ textarea{
     margin: 5px 5px 5px 5px;
     border: 1px solid #00bbd3;
 }
+/*Seccion de clases sincronicas*/
 #gridclases{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -214,6 +219,7 @@ textarea{
 .clases th i{
     font-size: 20px;
 }
+/*Seccion de contenido multimedia*/
 #multim{
     background-image: url(../images/background\ multimedia.png);
     min-height: 90px;
@@ -243,6 +249,7 @@ textarea{
 #tablamultim td iframe{
     border-radius: 20px;
 }
+/*Seccion del foro general y privado*/
 #foro h2{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -260,6 +267,7 @@ textarea{
 .priv{
     border-top: 3px solid #001215;
 }
+/*Seccion de las tareas*/
 #tareas{
     background-color: #85A0BD;
 }
@@ -290,6 +298,7 @@ textarea{
 .task form{
     margin-top: 5px;
 }
+/*Pie de la pagina*/
 footer{
     height: 40px;
     padding-top: 5px;
